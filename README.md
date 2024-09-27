@@ -4,14 +4,14 @@ Este projeto é uma aplicação simples que permite a um usuário preencher um f
 
 ## Tecnologias Utilizadas
 
-HTML e CSS: para construir a interface do formulário e estilizar a página.
-jQuery Validator: para validar os campos do formulário no front-end antes do envio.
-PHP: para validar os dados do formulário no back-end e processar o envio do e-mail.
-PHPMailer: para enviar e-mails de forma segura e eficiente.
-Composer: para gerenciar a dependência do PHPMailer.
+- HTML e CSS: para construir a interface do formulário e estilizar a página.
+- jQuery Validator: para validar os campos do formulário no front-end antes do envio.
+- PHP: para validar os dados do formulário no back-end e processar o envio do e-mail.
+- PHPMailer: para enviar e-mails de forma segura e eficiente.
+- Composer: para gerenciar a dependência do PHPMailer.
 
 ## Requisitos
-PHP 7.4+
-Composer
-Servidor web com suporte a PHP (Apache, Nginx, etc.)
-Acesso a um servidor SMTP para o envio de e-mails
+- PHP 7.4+
+- Composer
+- Servidor web com suporte a PHP (Apache, Nginx, etc.)
+
