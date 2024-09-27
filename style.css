@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --font-color: rgb(50, 50, 236);
+    --form-bg-color: white;
+    --btn-bg-color: rgb(35, 126, 35);
+    --border-form-color: #b4bac2;
+    --btn-hover-color: rgb(2, 6, 2);
+    --error-msg-color: red;
+    --footer-bg-color: rgb(233, 233, 233);
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+header{
+    max-width: 100%;
+    background-color: var(--font-color);
+    height: 12rem;
+}
+
+header .content-img{ 
+
+    width: 20rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+header .content-img img{
+    width: 24rem;
+    height: 14rem;
+    margin-left: 8rem;
+    
+}
+
+/* main */
+
+main{
+    display: flex;
+    margin-top: 8rem;
+}
+
+main .content-name, main .content-form{
+    width: 50%;
+}
+
+main .content-name{
+ 
+    padding-left: 2rem;
+ 
+}
+
+
+main .content-form h2, main .content-name h2{
+    color: var(--font-color);
+}
+
+main .content-form h2{
+    margin-left: 2rem;
+}
+main .content-form form{
+
+    max-width: 60rem;
+    padding: 2rem;
+}
+
+main .content-form form label{
+    background-color: var(--form-bg-color);
+    color: var(--font-color);
+    font-size: 1.2rem;
+    padding-top: .8rem;
+    padding-left: .8rem;
+    padding-bottom: .8rem;
+}
+main .content-form form label,
+main .content-form form input,
+main .content-form form textarea
+{
+    border:  1px solid var(--border-form-color);
+    
+}
+
+main .content-form form input,
+main .content-form form textarea{
+    border-left: transparent;
+}
+
+main .content-form form #label-name
+{
+    padding-right: 11rem;
+}
+
+main .content-form form #label-phone
+{
+    padding-right: 9.5rem;
+}
+main .content-form form #label-email
+{
+    padding-right: 11.5rem;
+}
+
+main .content-form form #label-message
+{
+    padding-right: 8rem;
+}
+
+main .content-form form .input-wrapper{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+main .content-form form .input-wrapper #name,
+main .content-form form .input-wrapper #phone,
+main .content-form form .input-wrapper #email{
+    width: 37rem;
+  
+}
+
+
+
+main .content-form form .input-wrapper #submit{
+    width: 53.5rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--btn-bg-color);
+    color: var(--form-bg-color);
+}
+
+main .content-form form .input-wrapper #submit:hover{
+    background-color: var(--btn-hover-color);
+    transition: .5s;
+    cursor: pointer;
+}
+
+/*Estilização da página de email enviado com sucesso */
+
+.email-sucess {
+
+    width: 50%;
+    margin: 8rem auto 0;
+    padding: 1.4rem;
+    text-align: center;
+
+
+}
+
+.email-img{
+
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.email-sucess img{
+    margin: 0 auto;
+    width: 20rem;
+   
+}
+
+.email-sucess p{
+    font-size: 1.4rem;
+}
+
+
+/* Mensagem de Erro */
+
+main .content-form form p{
+    font-size: 1.2rem;
+    color: var(--error-msg-color);
+}
+
+
+/* Estilização do footer */
+footer{
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--footer-bg-color);
+    padding: 1rem 0;
+}
+
+
+/* Versão mobile */
+
+@media (max-width: 600px)
+{
+    main{
+        flex-direction: column;
+    }
+
+    form{
+        min-width: 100vw;
+        
+    }
+}
+
+
+
+
+
