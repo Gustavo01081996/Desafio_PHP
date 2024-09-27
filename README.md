@@ -1,6 +1,6 @@
 # Formulário de Contato com Envio de E-mail
 
-Este projeto é uma aplicação simples que permite a um usuário preencher um formulário de contato. As informações preenchidas são validadas posteriormente são enviadas para o e-mail do administrador através do PHPMailer.
+Este projeto é uma aplicação simples que permite a um usuário preencher um formulário de contato. As informações preenchidas são validadas e posteriormente são enviadas para o e-mail do administrador através do PHPMailer.
 
 ## Tecnologias Utilizadas
 
